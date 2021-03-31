@@ -13,9 +13,9 @@ ipython_config.py
 
 # Environments
 .env
-.venv-jupyter
+.venv
 env/
-venv-jupyter/
+venv/
 ENV/
 env.bak/
 venv.bak/
