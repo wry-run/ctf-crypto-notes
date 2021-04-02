@@ -10,7 +10,8 @@ python3 -m pip install --user --upgrade virtualenv
 python3 -m venv venv
 source venv/bin/activate
 python3 -m pip install --upgrade wheel 
-python3 -m pip install --upgrade jupyterlab jupyterthemes
+python3 -m pip install --upgrade -r requirements.txt
+jt -t onedork
 jupyter notebook
 ```
 
