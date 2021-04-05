@@ -20,3 +20,5 @@ ENV/
 env.bak/
 venv.bak/
 
+# installed source code
+pyecm.py
