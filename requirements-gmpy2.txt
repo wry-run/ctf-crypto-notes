@@ -1,0 +1,5 @@
+libgmp-dev
+libmpc-dev
+libmpfr-dev
+python3-gmpy2
+

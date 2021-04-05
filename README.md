@@ -23,4 +23,11 @@ jt -t monokai
 jupyter notebook
 ```
 
+Additionally, for `gmpy2` and `pyecm` you will probably need libmpc-, libmpfr-, and libgmp-dev, which you can install (credit: [monolune](https://www.monolune.com/installing-apt-packages-from-a-requirements-file/)) with
+
+```bash
+sed 's/#.*//' requirements-gmpy2.txt | xargs sudo apt-get install -y
+wget https://raw.githubusercontent.com/martingkelly/pyecm/master/pyecm.py
+```
+
 
